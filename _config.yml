@@ -1,0 +1,29 @@
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+permalink: /:title.html
+paginate: 5
+gems: [jekyll-paginate]
+port: 4000
+safe: true
+url: http://leeox.github.io/
+author: Fábio Madeira
+
+# edit this section with your information
+# biomadeira.github.io - all contents run on /vitae/
+# for a normal use at the base of the server change it to "/"
+baseurl: /
+title: leeox
+name: leeox coder
+email: christurner@me.com
+email_full: xiaoxiong0566@126.com
+website: github.io/leeox
+website_full: https://leeox.github.io/
+github: trending
+twitter: twitter
+tel: +44 0000 000000
+tel_full: tel:+440000000000
+
+# needed for travis-ci build
+exclude: [vendor]
